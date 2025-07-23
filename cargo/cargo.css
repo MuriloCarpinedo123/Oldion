@@ -124,8 +124,8 @@ input::placeholder {
 
 #title-top-right-painel{
   position: absolute;
-  top: 100px; /* Aumente ou diminua para subir/descer */
-  right: 950px; /* Alinha com os inputs */
+  top: 110px; /* Aumente ou diminua para subir/descer */
+  right: 900px; /* Alinha com os inputs */
   color: white;
   font-size: 60px;
   font-weight: bold;
@@ -134,9 +134,30 @@ input::placeholder {
 #sub-title-top-right-painel{
   position: absolute;
   top: 200px; /* Aumente ou diminua para subir/descer */
-  right: 1px; /* Alinha com os inputs */
+  right: 540px; /* Alinha com os inputs */
   color: white;
-  font-size: 21px;
+  font-size: 25px;
   font-weight: bold;
     
+}
+#title-question{
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  top: 500px;
+  right: 380px;
+}
+.answer-button{
+  display: grid;
+  background-color: #8023cd;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  font-size: 45px;
+  font-weight: bold;
+  width: 500px;
+  text-align: center;
+  
 }
