@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #9d80ff, #fffccf);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #a3c2f3;
+  border-radius: 40px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+.card h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: white;
+  color: black;
+  border: 3px solid white;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.google i {
+  color: #DB4437;
+}
+
+.facebook i {
+  color: #4267B2;
+}
+
+.separator {
+  margin: 20px 0;
+  color: #888;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+.input-group i {
+  margin-right: 10px;
+  color: #555;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.create-btn {
+  background: #c090f0;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 14px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+}
+
+.create-btn:hover {
+  background: #b478f0;
+}
+
+.erro {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  display: none;
+  margin-left: 8px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Criar Conta - Oldion</title>
+  <link rel="stylesheet" href="criarConta.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="card">
+    <h2>Criar nova conta na Oldion</h2>
+
+    <button class="social-btn google">
+      <i class="fab fa-google"></i> Criar com conta Google
+    </button>
+    
+    <button class="social-btn facebook">
+      <i class="fab fa-facebook-f"></i> Criar com conta do Facebook
+    </button>
+
+    <div class="separator">ou</div>
+
+    <div class="input-group">
+      <i class="fas fa-user"></i>
+      <input type="text" id="input-nome" placeholder="Nome de usuário...">
+    </div>
+    <span class="erro" id="erro-nome">* Campo obrigatório</span>
+
+    <div class="input-group">
+      <i class="fas fa-envelope"></i>
+      <input type="email" id="input-email" placeholder="Email...">
+    </div>
+    <span class="erro" id="erro-email">* Campo obrigatório</span>
+
+    <div class="input-group">
+      <i class="fas fa-lock"></i>
+      <input type="password" id="input-senha" placeholder="Senha...">
+    </div>
+    <span class="erro" id="erro-senha">* Campo obrigatório</span>
+
+    <button class="create-btn" id="botao-criar">Criar</button>
+  </div>
+
+  <script src="criarConta.js"></script>
+</body>
+</html>
