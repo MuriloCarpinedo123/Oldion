@@ -124,8 +124,8 @@ input::placeholder {
 
 #title-top-right-painel{
   position: absolute;
-  top: 110px; /* Aumente ou diminua para subir/descer */
-  right: 900px; /* Alinha com os inputs */
+  top:50px; /* Aumente ou diminua para subir/descer */
+  right: 350px; /* Alinha com os inputs */
   color: white;
   font-size: 60px;
   font-weight: bold;
@@ -133,8 +133,8 @@ input::placeholder {
 }
 #sub-title-top-right-painel{
   position: absolute;
-  top: 200px; /* Aumente ou diminua para subir/descer */
-  right: 540px; /* Alinha com os inputs */
+  top: 150px; /* Aumente ou diminua para subir/descer */
+  right: 275px; /* Alinha com os inputs */
   color: white;
   font-size: 25px;
   font-weight: bold;
@@ -145,8 +145,8 @@ input::placeholder {
   font-size: 45px;
   font-weight: bold;
   color: white;
-  top: 500px;
-  right: 380px;
+  top: 300px;
+  right: 300px;
 }
 .answer-button{
   display: grid;
@@ -159,5 +159,6 @@ input::placeholder {
   font-weight: bold;
   width: 500px;
   text-align: center;
+  right: 200px;
   
 }
