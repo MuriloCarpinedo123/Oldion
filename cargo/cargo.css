@@ -149,7 +149,7 @@ input::placeholder {
   right: 300px;
 }
 .answer-button{
-  display: grid;
+  display: flex;
   background-color: #8023cd;
   color: white;
   padding: 10px;
@@ -160,5 +160,21 @@ input::placeholder {
   width: 500px;
   text-align: center;
   right: 200px;
+  justify-content: center;
   
+}
+
+.years-old{
+  display: flex;
+  background-color: #8023cd;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  font-size: 45px;
+  font-weight: bold;
+  width: 500px;
+  text-align: center;
+  right: 200px;
+  justify-content: center;
 }
