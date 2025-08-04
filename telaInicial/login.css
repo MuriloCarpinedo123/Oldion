@@ -17,10 +17,10 @@ body, html {
 
 /* Painel Esquerdo */
 .left-panel {
-  width: 50%;
-  background: url('https://cdn.discordapp.com/attachments/1350812542875992136/1397682394508820500/91c4c80c4820e4483264abeaf3cb01eaedbb0e77.png?ex=68829caa&is=68814b2a&hm=d7029ac41d847f5168c7ca81f86bb327d042558cca44bce366916147ad56bfb5&') no-repeat center center/cover;
-  filter: blur(4px);
-  position: relative;
+    width: 50%;
+    background-image: '../mulherIdosa';
+    background-size: cover;
+    position: relative;
 }
 
 .left-panel h1 {

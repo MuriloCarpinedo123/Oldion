@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #eaf29d, #ddb8ff, #cba5f1);
+    color: #7c4dcc;
+  }
+  
+  .container {
+    padding: 4rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.2rem;
+    color: #9e59d2;
+  }
+  
+  header p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .back-icon {
+    width: 25px;
+    float: left;
+    margin-top: 10px;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .images img {
+    width: 250px;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .no-account {
+    background-color: pink;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #333;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  .create-link {
+    color: #7c4dcc;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .has-account {
+    background-color: #b6ffb6;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #333;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
