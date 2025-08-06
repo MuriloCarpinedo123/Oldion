@@ -124,7 +124,19 @@ input::placeholder {
   transition: background 0.3s, box-shadow 0.3s;
   width: 850px  ;
 }
-
+.btn-largeg {
+  margin-top: 40px;
+  padding: 16px;
+  font-size: 20px;
+  background-color: #c19df7;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px #00000040;
+  transition: background 0.3s, box-shadow 0.3s;
+  width: 850px  ;
+}
 .btn-large:hover {
   background-color: #a278e9;
   box-shadow: 0 0 20px #f7c94d, 0 0 40px #f7c94d;
