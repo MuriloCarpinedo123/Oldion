@@ -122,6 +122,7 @@ input::placeholder {
   cursor: pointer;
   box-shadow: 2px 2px 10px #00000040;
   transition: background 0.3s, box-shadow 0.3s;
+  width: 850px  ;
 }
 
 .btn-large:hover {
